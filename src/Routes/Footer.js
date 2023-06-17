@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css'; // Import the CSS file
+import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -61,9 +62,17 @@ const Footer = () => {
           </ul>
         </div>
       </div>
-      <div className="footer-bottom">
-        <p>&copy; {new Date().getFullYear()} Company. All rights reserved.</p>
-        <p> ❤ with Love Dinesh Reddy</p>
+      <div className='footer-bottom-main'>
+        <div className="footer-bottom">
+          <p>&copy; {new Date().getFullYear()} Company. All rights reserved.</p>
+          <p> ❤ with Love Dinesh Reddy</p>
+        </div>
+        <div className='footer-social-media'>
+          <FaFacebook/>
+          <FaTwitter/>
+          <FaLinkedin/>
+          <FaInstagram/>
+        </div>
       </div>
     </footer>
   );

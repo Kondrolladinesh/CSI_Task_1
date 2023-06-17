@@ -79,3 +79,22 @@
 .footer-links a:hover {
   text-decoration: underline;
 }
+
+.footer-bottom-main{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/* .footer-bottom-main div{
+  display: flex;
+  align-items: flex-end;
+} */
+
+.footer-social-media{
+  display: flex;
+  align-items: flex-end;
+  margin-left: 800px;
+  gap: 20px;
+  /* justify-content: space-between; */
+}
