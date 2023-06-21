@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import "./Home.css"
 
 const Home = () => {
-  const [activeButton, setActiveButton] = useState(null);
+  const [activeButton, setActiveButton] = useState(5);
 
   const handleClick = (buttonId) => {
     setActiveButton(buttonId);
